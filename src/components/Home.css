@@ -1,0 +1,22 @@
+.h-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 70px 100px;
+  place-items: center;
+  place-content: center;
+  column-gap: 80px;
+  row-gap: 100px;
+  background: rgb(255, 147, 47, 1);
+  background: linear-gradient(90deg, rgba(255, 147, 47, 1) 1%, rgba(221, 219, 36, 1) 100%);
+  
+}
+.h-item {
+  text-align: center;
+  color:Black;
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+.h-item img {
+  width: 400px;
+}
